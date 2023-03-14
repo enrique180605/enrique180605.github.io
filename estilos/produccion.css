@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: overlay;
+    font-family: poppins,sans-serif;
+    background-color: rgba(6,6,6,255);
+}
+h1{
+    font-size: 40px;
+    color: rgba(222,188,85,255);
+    display: inline-block;
+    text-align: left;
+    float:inherit;
+    width: 35%;
+    margin: 20px;
+    font-family: 'Tilt Warp', cursive;
+    letter-spacing: 2.5px;
+}
+#txt1{
+    text-decoration: none;
+    color: rgba(222,188,85,255)
+}
+h2{
+    font-family: 'Tilt Warp', cursive;
+    letter-spacing: 2.5px;
+    color: rgba(222,188,85,255);
+    text-align: right;
+    float: inherit;
+    width: 58.8%;
+    display: inline-block;
+    margin: 20px;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Tilt warp', cursive;
+}
+nav li{
+    display: inline-flex;
+    cursor: pointer;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    justify-content: center;
+}
+nav li:hover{
+    background-color: dimgrey;
+}
+.material-symbols-outlined{
+    color: white;
+    width: 4%;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    width: 100%;
+    font-family: 'tilt warp',cursive;
+    color: rgba(222,188,85,255);
+    letter-spacing: 2.5px;
+    word-spacing: 1.5px;
+}
+.txt{
+    color: white;
+    font-family: 'tilt warp',cursive;
+    width: 99%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+span{
+    color: rgba(222,188,85,255); 
+}
+.img{
+    width: 20%;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+    transition: all 500ms ease;
+}
+.img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+p{
+  color: white;
+    font-family: 'tilt warp',cursive;
+    width: 99%;
+    text-align: left;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+}
+iframe{
+    width: 60%; 
+}
+#pie{
+    color: white;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 0px;
+    margin-top: 20%;
+    font-family: 'tilt warp',cursive;
+    text-align: center;
+    letter-spacing: 5px;
+}
+iframe{
+    margin-top: 30px;
+}
